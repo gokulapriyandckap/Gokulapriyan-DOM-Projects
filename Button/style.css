@@ -1,0 +1,23 @@
+
+button{
+    height: 40px;
+    width: 70px;
+    border-radius: 13px;
+    border: solid 2px blue;
+}
+
+.add1{
+    background-color: red;
+    color:  white;
+    transition: 1s;
+}
+.add2{
+    background-color: green;
+    color:  white;
+    transition: 1s;
+}
+.add3{
+    background-color: yellow;
+    color:  white;
+    transition: 1s;
+}

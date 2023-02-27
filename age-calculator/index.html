@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <table>
+        <tbody>
+        <tr class="header">
+          
+          <th>Year</th>
+          <th>Month</th>
+          <th>Day</th>
+        </tr>
+        <tr>
+       <th>Birth Date</th>
+          <td><input  id="FromYear"  placeholder="YYYY" value=""></td>
+          <td><input  id="FromMonth" placeholder="MM" value=""></td>
+          <td><input  id="FromDay"   placeholder="DD" value=""></td>
+        </tr>
+
+        <tr>
+          <th colspan="4">
+            <button id="calculateDiff" >Calculate Your age</button>
+          </th>
+        </tr>
+        <tr colspan="4">
+          <th>You are <div id="result"></div></th>
+      </tr>
+      </tbody>
+    </table>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
